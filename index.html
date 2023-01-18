@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Likes_Pt_2/style.css">
+    <script src="../Likes_Pt_2/script.js" defer></script>
+    <title>Likes Part II</title>
+</head>
+
+<body>
+    <h1>Network</h1>
+    <h2>Your Feed</h2>
+    <div id="container">
+        <div class="left_column">
+            <img src="../Likes_Pt_2/media/aang.jpeg" alt="the_last_air_bender">
+            <p><a href="">Add an avatar</a></p>
+            <h3>Avatar Aang</h3>
+        </div>
+        <div class="right_column">
+            <div class="post">
+                <div class="likes">
+                    <h3>Jimmy N.</h3>
+                    <p><span id="counterOne">9</span> like(s)</p>
+                    <button onclick ="add1('#counterOne')" class="likebtn">Like</button>
+                </div>
+                <p>I just set up this new discord bot, let me know what you all think.
+                    <a href="#">link</a>
+                </p>
+            </div>
+            <div class="post">
+                <div class="likes">
+                    <h3>Danny P.</h3>
+                    <p><span id="counterTwo">12</span> like(s)</p>
+                    <button onclick="add1more('#counterTwo')" class="likebtn">Like</button>
+                </div>
+                <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+            </div>
+            <div class="post">
+                <div class="likes">
+                    <h3>Tito M.</h3>
+                    <p><span id="counterThree">9</span> like(s)</p>
+                    <button onclick="add1moretime('#counterThree')" class="likebtn">Like</button>
+                </div>
+                <p>I can't stop listening to the <a href="#">new album.</a>Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
